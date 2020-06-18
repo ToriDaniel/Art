@@ -1,0 +1,324 @@
+body
+{
+    background-color: #2F4454;
+    height:3500px;
+}
+.Toolbar
+{
+    float:left;
+    width: 250px;
+    height: 2000px;
+    background-color: #2E151B;
+    box-shadow: 10px 10px 5px black;
+}
+.Title
+{
+    float: right;
+    width: 80%;
+    height: 200px;
+    font-size: 150px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #376E6F;
+}
+
+.links
+{
+    padding-top:100px;
+    color: aliceblue;
+    padding-left:15px;
+    font-size: 50px;
+    line-height: 1.6;
+}
+a
+{
+    color:aliceblue;
+}
+.Featured
+{
+    float: right;
+    width:80%;
+    height: 2000px;
+    margin-bottom:50px;
+}
+.Left
+{
+    margin-left:15%;
+}
+.Left, .Middle, .Right
+{
+    float:left;
+    height: 1400px;
+    width:550px;
+}
+#a
+{
+    display:inline-block;
+    height: 1100px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top:150px;
+    transition: all .2s ease-in-out;
+}
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover, #g:hover, #paint:hover, #charcoal:hover, #glass:hover{
+    transform: scale(1.1);
+}
+img
+{
+    display:inline-block;
+    width:430px;
+    height:auto;
+    margin:15px;
+    margin-left: 30px;
+}
+#b
+{
+    display:inline-block;  
+    height: 600px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    transition: all .2s ease-in-out;
+}
+
+
+#c
+{
+    display:inline-block;   
+    height: 340px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top:10px;
+    transition: all .2s ease-in-out;
+}
+
+#d
+{
+    display:inline-block;   
+    height: 900px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top: 120px;
+    transition: all .2s ease-in-out;
+}
+#e
+{
+    display:inline-block;  
+    height: 400px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top:50px;
+    transition: all .2s ease-in-out;
+}
+#f
+{
+    display:inline-block;   
+    height: 700px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top: 100px;
+    transition: all .2s ease-in-out;
+}
+#g
+{
+    display:inline-block;
+    height: 1000px;
+    width: 500px;
+    background-color: #1C3334;
+    margin: 30px;
+    box-shadow: 10px 10px 5px black;
+    padding-top: 100px;
+    transition: all .2s ease-in-out;
+ 
+}
+
+.Categories
+{
+    float:right;
+    width:100%;
+    height:500px;
+    background-color: #1C3334;
+    place-items:center;
+    
+}
+
+h1
+{
+    float:right;
+    width:80%;
+    font-size:80px;
+    color:aliceblue;
+    text-align:center;
+}
+h2
+{
+    text-align: center;
+    color:aliceblue;
+    word-wrap: normal;
+    font-size:60px;
+    margin:20px;
+    margin-top:180px;
+}
+#charcoal > h2
+{
+    margin-top:160px;
+}
+header
+{
+    font-size:80px;
+    color:white;
+}
+
+#paint
+{
+    float:right;
+    display:inline-block;  
+    height: 500px;
+    width: 600px;
+    background-color: #376E6F;
+    margin: -4rem;
+    margin-right:200px;
+    margin-top:50px;
+    box-shadow: 10px 10px 10px 10px black;
+    padding-top:50px;
+    transition: all .2s ease-in-out;
+    border-radius:1rem;
+}
+
+#charcoal
+{
+    float:right;
+    display:inline-block;  
+    height: 500px;
+    width: 600px;
+    background-color: #376E6F;
+    margin: -3rem;
+    margin-top:50px;
+    box-shadow: 10px 10px 10px 10px black;
+    padding-top:50px;
+    transition: all .2s ease-in-out;
+    border-radius:1rem;
+}
+#glass
+{
+    float:right;
+    display:inline-block;  
+    height: 500px;
+    width: 600px;
+    background-color: #376E6F;
+    margin: -3rem;
+    margin-top:50px;
+    box-shadow: 10px 10px 10px 10px black;
+    padding-top:50px;
+    transition: all .2s ease-in-out;
+    border-radius:1rem;
+}
+
+#paint:hover, #charcoal:hover, #glass:hover
+{
+    transition:0.1s;
+    transform:translateY(-1rem) scale(1.2);
+}
+
+.about
+{
+    float:left;
+    margin-top:500px;
+    margin-left:500px;
+    align-content: center;
+    font-size:40px;
+    text-align:left;
+}
+.selfie
+{
+    float:left;
+    margin-left:200px;
+}
+.button
+{
+    background-color:#2E151B;
+    font-size: 40px;
+}
+/*
+Dark blue and purple color scheme:
+#2F4454 NAVY BLUE
+#2E151B DARK PURPLE
+#DA7B93 LIGHT PINK
+#376E6F LIGHT TURQUOISE
+#1C3334 DARK GREEN
+*/
+
+/* 
+STYLISH AND SOPHISTICATED COLOR SCHEME:
+#5D5C61 MID GREY
+#379683 LIGHT GREY
+#7395AE LIGHT BLUE
+#557A95 MID BLUE
+#B1A296 TAUPE
+*/
+
+/*
+ELEGANT YET APPROACHABLE
+#EDC7B7 LIGHT ROSE
+#EEE2DC OFF WHITE
+#BAB2B5 LIGHT GREY
+#123C69 NAVY BLUE
+#AC3B61 DARK ROSE
+*/
+
+
+/*
+UNIQUE COMBINATION
+#59253A DARK PURPLE
+#78244C MID RED PURPLE
+#895061 DUSTY MAUVE
+#0677A1 VIBRANT BLUE
+#2D4159 NAVY BLUE
+*/
+
+/*
+ROSE RED AND BERRY
+#4285F4 VIBRANT BLUE
+#5C2018 DARK BRICK RED
+#BC4689 MID RED ORANGE
+#D4A59A DUSTY WARM TAUPE
+#F3E0DC PINK TONED WHITE
+*/
+
+/*
+INTREPID AND FEARLESS
+#314455 NAVY BLUE
+#644E5B DARK DUSTY PURPLE
+#9E5A63 COOL RED PURPLE
+#C96567 MUTED RED
+#97AABD COOL BLUE GREY
+*/
+
+/*
+CLASSY AND TRADITIONAL
+#5F6366 MID GREY
+#4D6D9A MID COOL BLUE
+#86B3D1 MID PURPLE GREY
+#99CED3 LIGHT SEAFOAM GREEN
+#EDB5BF LIGHT PINK
+*/
+
+/*
+GLAMOROUS AND FASHION FORWARD
+#806543 MUTED OLIVE
+#33266E DARK BLUE VIOLET
+#111111 BLACK
+#542F34 DUSTY DARK VIOLET
+#A6607C MID DUSTY ROSE
+*/
