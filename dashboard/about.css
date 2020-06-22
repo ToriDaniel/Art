@@ -1,0 +1,75 @@
+body
+{
+    background-color: #644E5B
+}
+.Title
+{
+    width:100%;
+    height:10%;
+    align-self:center;
+    font-size:140px;
+    background-color: #2E151B;
+    color:floralwhite;
+    text-align:center;
+    float:left;
+    
+}
+.about
+{
+    float:left;
+    height:900px;
+    width:35%;
+    margin-top:50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #59253A;
+    padding-left:10px;
+    font-size:35px;
+    color:floralwhite;
+}
+.dec
+{
+    float:right;
+    width:10%;
+    height: 2000px;
+    background-color:#59253A;
+}
+.selfie
+{
+    width:35%;
+    margin-left: -5%;
+    margin-right: 10%;
+    margin-top:700px;
+    height:900px;
+    float:left;
+    background-color:#2E151B;
+    color:floralwhite;
+    font-size:35px;
+    text-align:right;
+}
+
+img
+{
+    display:inline-block;
+    float:right;
+    width:600px;
+    margin:15px;
+    margin-top:-20%;
+    margin-right: 70%;
+    
+}
+
+a
+{
+    margin-top:100px;
+    color: #9E5A63;
+    padding-left:15px;
+    font-size: 50px;
+    line-height: 1.6;
+}
+.button
+{
+    background-color:#2E151B;
+    font-size: 40px;
+    float:left;
+}
