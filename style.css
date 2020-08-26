@@ -250,6 +250,10 @@ header
     background-color:#2E151B;
     font-size: 40px;
 }
+.gallery
+{
+    align-content:center;
+}
 /*
 Dark blue and purple color scheme:
 #2F4454 NAVY BLUE
