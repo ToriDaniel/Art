@@ -252,7 +252,10 @@ header
 }
 .gallery
 {
-    align-content:center;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-right:10%;
+   
 }
 /*
 Dark blue and purple color scheme:
